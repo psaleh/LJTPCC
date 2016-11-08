@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'floppyforms',
     #my apps
     'main',
-#    'contactme',
 ]
 
 MIDDLEWARE = [

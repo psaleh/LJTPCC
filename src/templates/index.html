@@ -106,10 +106,12 @@
 
         <section id="contact" class="row contact-us">
             <h1>CONTACT US</h1>
-            {% block content %}
-            {% endblock %}
+            <form action="" method="post">
+              {% csrf_token %}
+              {{ form.as_p }}
 
-            <a href="#" class="btn btn-primary btn-info"><span class="glyphicon glyphicon-envelope"></span> Submit</a>
+<input type="submit" class="btn btn-primary btn-info"><span class="glyphicon glyphicon-envelope"></span> Submit</a>
+</form>
         </section>
 
     </div>
