@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     #python apps
     'rest_framework',
     'corsheaders',
+    'crispy_forms',
+    'floppyforms',
     #my apps
     'main',
 #    'contactme',
